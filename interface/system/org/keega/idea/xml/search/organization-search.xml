@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sets>
+    <set name="organization" description="组织机构查询">
+        <params>
+            <param description="更新时间" dataType="日期型" systemName="start_date" paramName="modifyDate"/>
+            <param description="部门字段" dataType="字符型" systemName="codesetid" paramName="department"/>
+        </params>
+        <searchFields>
+            <field description="字段描述" systemName="codeitemdesc" matchName="name"/>
+            <field description="父级id" systemName="parentid" matchName="pid"/>
+            <field description="字段id" systemName="codeitemid" matchName="id"/>
+        </searchFields>
+    </set>
+</sets>

@@ -1,0 +1,98 @@
+---------------------------------------------
+调用时间: 2016-11-21 11:21:38
+调用密匙: EK_SYS_2016
+调用xml文件名: organization-search
+调用参数: {modifyDate:'2015-10-12 00:00:00.000',department:'UM'}
+返回结果: {"code":"00" , "message":"[{"name":"迅雷游戏","pid":"01","id":"0101"},{"name":"创新设计中心","pid":"01","id":"0102"},{"name":"法务部","pid":"01","id":"0104"},{"name":"系统工程部","pid":"01","id":"0105"},{"name":"信息安全部","pid":"01","id":"0106"},{"name":"市场部","pid":"01","id":"0107"},{"name":"公共关系部","pid":"01","id":"0108"},{"name":"基础研发部","pid":"01","id":"0109"},{"name":"人力资源部","pid":"01","id":"0110"},{"name":"行政部","pid":"01","id":"0111"},{"name":"用户平台事业部","pid":"01","id":"0112"},{"name":"采购部","pid":"01","id":"0113"},{"name":"内审内控部","pid":"01","id":"0114"},{"name":"财务部","pid":"01","id":"0115"},{"name":"客服部","pid":"01","id":"0116"}]" }
+	
+---------------------------------------------
+调用时间: 2016-11-21 11:21:38
+调用密匙: EK_SYS_2016
+调用xml文件名: jobTransfer-modify
+调用参数: [{tableName:'basicInfo',modify:'update',employeeName:'张三',employeeSex:'2',employeeId:'00000002',uid:'2'},{tableName:'education',modify:'insert',schoolName:'宏景大学',majorName:'人力资源软件专业',uid:'00000003'},{tableName:'examine',modify:'delete',employeeId:'00000003',uuid:'10'}]
+返回结果: {"code":"00" , "message":"execute success" }
+	
+---------------------------------------------
+调用时间: 2016-11-21 11:50:37
+调用密匙: EK_SYS_2016
+调用xml文件名: organization-search
+调用参数: {modifyDate:'2015-10-12 00:00:00.000',department:'UM1'}
+返回结果: {"code":"00" , "message":"[]" }
+	
+---------------------------------------------
+调用时间: 2016-11-21 11:50:37
+调用密匙: EK_SYS_2016
+调用xml文件名: jobTransfer-modify
+调用参数: [{tableName:'basicInfo',modify:'update',employeeName:'张三',employeeSex:'2',employeeId:'00000002',uid:'2'},{tableName:'education',modify:'insert',schoolName:'宏景大学',majorName:'人力资源软件专业',uid:'00000003'},{tableName:'examine',modify:'delete',employeeId:'00000003',uuid:'10'}]
+返回结果: {"code":"00" , "message":"execute success" }
+	
+---------------------------------------------
+调用时间: 2016-11-21 11:51:09
+调用密匙: EK_SYS_2016
+调用xml文件名: organization-search
+调用参数: {modifyDate:'2015-10-12 a00:00:00.000',department:'UM'}
+返回结果: {"code":"03" , "message":"服务异常！" }
+	
+---------------------------------------------
+调用时间: 2016-11-21 11:51:09
+调用密匙: EK_SYS_2016
+调用xml文件名: jobTransfer-modify
+调用参数: [{tableName:'basicInfo',modify:'update',employeeName:'张三',employeeSex:'2',employeeId:'00000002',uid:'2'},{tableName:'education',modify:'insert',schoolName:'宏景大学',majorName:'人力资源软件专业',uid:'00000003'},{tableName:'examine',modify:'delete',employeeId:'00000003',uuid:'10'}]
+返回结果: {"code":"00" , "message":"execute success" }
+	
+---------------------------------------------
+调用时间: 2016-11-21 11:51:33
+调用密匙: EK_SYS_2016a
+调用xml文件名: aorganization-search
+调用参数: {modifyDate:'2015-10-12 00:00:00.000',department:'UM'}
+返回结果: {"code":"02" , "message":"找不到目标！" }
+	
+---------------------------------------------
+调用时间: 2016-11-21 11:51:33
+调用密匙: EK_SYS_2016
+调用xml文件名: jobTransfer-modify
+调用参数: [{tableName:'basicInfo',modify:'update',employeeName:'张三',employeeSex:'2',employeeId:'00000002',uid:'2'},{tableName:'education',modify:'insert',schoolName:'宏景大学',majorName:'人力资源软件专业',uid:'00000003'},{tableName:'examine',modify:'delete',employeeId:'00000003',uuid:'10'}]
+返回结果: {"code":"00" , "message":"execute success" }
+	
+---------------------------------------------
+调用时间: 2016-11-21 11:52:13
+调用密匙: EK_SYS_2016d
+调用xml文件名: organization-search
+调用参数: {modifyDate:'2015-10-12 00:00:00.000',department:'UM'}
+返回结果: {"code":"01" , "message":"密钥不正确！" }
+	
+---------------------------------------------
+调用时间: 2016-11-21 11:52:13
+调用密匙: EK_SYS_2016
+调用xml文件名: jobTransfer-modify
+调用参数: [{tableName:'basicInfo',modify:'update',employeeName:'张三',employeeSex:'2',employeeId:'00000002',uid:'2'},{tableName:'education',modify:'insert',schoolName:'宏景大学',majorName:'人力资源软件专业',uid:'00000003'},{tableName:'examine',modify:'delete',employeeId:'00000003',uuid:'10'}]
+返回结果: {"code":"00" , "message":"execute success" }
+	
+---------------------------------------------
+调用时间: 2016-11-21 11:52:30
+调用密匙: EK_SYS_2016
+调用xml文件名: organization-search
+调用参数: {modifyDate:'2015-10-12 00:00:00.000',department:'UM'}
+返回结果: {"code":"00" , "message":"[{"name":"迅雷游戏","pid":"01","id":"0101"},{"name":"创新设计中心","pid":"01","id":"0102"},{"name":"法务部","pid":"01","id":"0104"},{"name":"系统工程部","pid":"01","id":"0105"},{"name":"信息安全部","pid":"01","id":"0106"},{"name":"市场部","pid":"01","id":"0107"},{"name":"公共关系部","pid":"01","id":"0108"},{"name":"基础研发部","pid":"01","id":"0109"},{"name":"人力资源部","pid":"01","id":"0110"},{"name":"行政部","pid":"01","id":"0111"},{"name":"用户平台事业部","pid":"01","id":"0112"},{"name":"采购部","pid":"01","id":"0113"},{"name":"内审内控部","pid":"01","id":"0114"},{"name":"财务部","pid":"01","id":"0115"},{"name":"客服部","pid":"01","id":"0116"}]" }
+	
+---------------------------------------------
+调用时间: 2016-11-21 11:52:30
+调用密匙: EK_SYS_2016
+调用xml文件名: jobTransfer-modify
+调用参数: [{tableName:'basicInfo',modify:'update',employeeName:'张三',employeeSex:'2',employeeId:'00000002',uid:'2'},{tableName:'education',modify:'insert',schoolName:'宏景大学',majorName:'人力资源软件专业',uid:'00000003'},{tableName:'examine',modify:'delete',employeeId:'00000003',uuid:'10'}]
+返回结果: {"code":"00" , "message":"execute success" }
+	
+---------------------------------------------
+调用时间: 2016-11-21 11:55:45
+调用密匙: EK_SYS_2016
+调用xml文件名: organization-search
+请求内容: {modifyDate:'2015-10-12 00:00:00.000',department:'UM'}
+请求结果: {"code":"00" , "message":"[{"name":"迅雷游戏","pid":"01","id":"0101"},{"name":"创新设计中心","pid":"01","id":"0102"},{"name":"法务部","pid":"01","id":"0104"},{"name":"系统工程部","pid":"01","id":"0105"},{"name":"信息安全部","pid":"01","id":"0106"},{"name":"市场部","pid":"01","id":"0107"},{"name":"公共关系部","pid":"01","id":"0108"},{"name":"基础研发部","pid":"01","id":"0109"},{"name":"人力资源部","pid":"01","id":"0110"},{"name":"行政部","pid":"01","id":"0111"},{"name":"用户平台事业部","pid":"01","id":"0112"},{"name":"采购部","pid":"01","id":"0113"},{"name":"内审内控部","pid":"01","id":"0114"},{"name":"财务部","pid":"01","id":"0115"},{"name":"客服部","pid":"01","id":"0116"}]" }
+	
+---------------------------------------------
+调用时间: 2016-11-21 11:55:45
+调用密匙: EK_SYS_2016
+调用xml文件名: jobTransfer-modify
+请求内容: [{tableName:'basicInfo',modify:'update',employeeName:'张三',employeeSex:'2',employeeId:'00000002',uid:'2'},{tableName:'education',modify:'insert',schoolName:'宏景大学',majorName:'人力资源软件专业',uid:'00000003'},{tableName:'examine',modify:'delete',employeeId:'00000003',uuid:'10'}]
+请求结果: {"code":"00" , "message":"execute success" }
+	

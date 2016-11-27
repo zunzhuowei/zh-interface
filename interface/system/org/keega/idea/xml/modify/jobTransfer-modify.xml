@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 所有的description属性，仅仅只是中文描述而已，用于方便维护，不做任何参数判断 -->
+
+<!--1.sets标签中，中jsonModifyField的值表示对方系统传过来的json中《修改类型》的关键字，
+        例如对方json {modify:'insert'}，其中modify就是对应jsonModifyField的值。
+    2.sets标签中，jsonTableNameField表示对方系统传过来的json中要修改的《表名》的关键字，
+        例如对方json{tableName:'basicInfo'}，其中tableName就是对应jsonTableNameField的值。
+    3.set标签中，systemSetName的值表示我们系统的表名，matchSetName的值表示对方系统传过来的要修改的表名，
+    modifyType的值表示修改类型（值是三者其一：insert（增）,delete（删）,update（改））;
+    例如：<set description="基础信息" systemSetName="UsrA01" matchSetName="basicInfo" modifyType="update">
+    表示对方要修改（update）我们的UsrA01表,对方传过来的表名为basicInfo。其json如：{tableName:'basicInfo'，modify:'update'}
+    [
+        {tableName:'basicInfo','B0110':''},
+        {tableName:'education','A0405':''}
+    ]
+    -->
+<sets descrption="岗位调动" jsonModifyField="modify" jsonTableNameField="tableName" >
+    <set description="基础信息" systemSetName="UsrA01" matchSetName="basicInfo" modifyType="update">
+        <params>
+            <param description="员工名字" dataType="字符型" systemName="A0101" matchName="employeeName"/>
+            <param description="员工性别" dataType="字符型" systemName="A0107" matchName="employeeSex"/>
+        </params>
+        <whereConditions>
+            <whereCondtion description="人员id" dataType="字符型" systemName="A0100" matchName="employeeId"/>
+            <whereCondtion description="A0000" dataType="字符型" systemName="A0000" matchName="uid"/>
+        </whereConditions>
+    </set>
+    <set description="学历学位" systemSetName="UsrA04" matchSetName="education" modifyType="insert">
+        <params>
+            <param description="毕业学校" dataType="字符型" systemName="A0435" matchName="schoolName"/>
+            <param description="专业" dataType="字符型" systemName="A0444" matchName="majorName"/>
+            <param description="人员id" dataType="字符型" systemName="A0100" matchName="uid"/>
+        </params>
+    </set>
+    <!--<set description="考核情况" systemSetName="UsrA25" matchSetName="examine" modifyType="delete">
+        <whereConditions>
+            <whereCondtion description="人员id" dataType="字符型" systemName="A0100" matchName="employeeId"/>
+            <whereCondtion description="I9999" dataType="字符型" systemName="I9999" matchName="uuid"/>
+        </whereConditions>
+    </set>-->
+
+</sets>
+
+<!--
+ "EK_SYS_2016","jobTransfer-modify",
+"[{tableName:'basicInfo',modify:'update',unitId:'update01',depId:'update02',uuid1:'update03',uuid2:'update04'}," +
+"{tableName:'station',modify:'insert',oldunitId:'insert11',oldunitId1:'insert22'}," +
+"{tableName:'test',modify:'delete',uuid:'delete1',uuid1:'detele2'}]"
+ -->
