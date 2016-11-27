@@ -15,7 +15,6 @@ public class CreateInterfaceController {
 
     @RequestMapping(value = "/init", method = RequestMethod.GET)
     public String init() {
-        System.out.println("abcdddddd");
         return "/table/view";
     }
 }
